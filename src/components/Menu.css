@@ -1,3 +1,8 @@
+:root {
+    --cor_principal:#3FC978;
+    --cor_principal_hover:#30a762;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -7,6 +12,7 @@
 
 body{
     height: 100vh;
+    width: 100vw;
 }
 
 .menu {
@@ -19,7 +25,7 @@ body{
     box-shadow: 2px 2px 6px #7c7c7c36;
 }
 
-nav {
+.menu-web {
     margin: auto;
 }
 
@@ -45,14 +51,95 @@ nav:last-child{
 }
 
 .profile {
-    background-color: #3FC978;
+    background-color: var(--cor_principal);
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin: 20px ;
 }
 
-@media (min-width: 1500px)  {
+.mobile-menu-icon{
+    display: none;
+}
+
+@keyframes surgir{
+    from {left: 0px; top: -20px;}
+    to {left: 0px; top: 0px;}
+
+}
+
+.mobile-menu{
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+    float: right;
+    margin: -30px 20px 20px 20px;
+    background-color: var(--cor_principal);
+    position: relative;
+    animation-name: surgir;
+    animation-duration: 0.5s;
+}
+
+.mobile-menu nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 4px;
+    border: none;
+
+}
+
+.mobile-menu li{
+    align-self: flex-start;
+    margin-bottom: 4px;
+    list-style: none;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 4px;
+    text-align: right;
+}
+
+.mobile-menu li:hover{
+    background-color: var(--cor_principal_hover) ;
+    transition: 0.5s;
+    color: rgb(41, 41, 41)  ;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.open{
+    display: block;
+    transition: 0.5s;
+}
+
+@media(max-width:900px) {
+    .menu{
+        justify-content: space-between;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+        font-size: 35px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .menu-web{
+        display: none;
+    }
+}
+
+@media (min-width: 1400px)  {
     .menu {
         height: 80px;
     }
