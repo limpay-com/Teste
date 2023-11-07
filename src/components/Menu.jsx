@@ -1,5 +1,4 @@
-
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 import {MdSupportAgent} from '../../node_modules/react-icons/md/index.esm'
 import {MdPeopleAlt} from '../../node_modules/react-icons/md/index.esm'
 import {AiOutlineBank} from '../../node_modules/react-icons/ai/index.esm'
@@ -46,7 +45,7 @@ function Menu() {
           <li className='nav-item'> <BiHomeAlt2></BiHomeAlt2><a href="#inicio">Inicio</a></li>
           <li className='nav-item'> <AiOutlineBank></AiOutlineBank><a href="#educacional">Educacional</a></li>
           <li className='nav-item'> <MdPeopleAlt></MdPeopleAlt><a href="#quem-somos">Quem Somos</a></li>
-          <li className='nav-item'> <MdSupportAgent></MdSupportAgent><a href="#suporte">Suporte</a></li>
+          <li className='nav-item'> <MdSupportAgent></MdSupportAgent><a href="#suporte">Suporte</a></li>                                 
         </nav>
       </div>
     </>

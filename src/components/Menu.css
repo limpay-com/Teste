@@ -1,5 +1,5 @@
 :root {
-    --cor_principal:#3FC978;
+    --cor_principal:#157E41 ;
     --cor_principal_hover:#30a762;
 }
 
@@ -97,17 +97,18 @@ nav:last-child{
     border-radius: 5px;
     padding: 4px;
     text-align: right;
+    color: #ffffff;
 }
 
 .mobile-menu li:hover{
     background-color: var(--cor_principal_hover) ;
     transition: 0.5s;
-    color: rgb(41, 41, 41)  ;
+    color: rgb(255, 255, 255)  ;
 }
 
 .mobile-menu a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
 
