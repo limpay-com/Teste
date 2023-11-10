@@ -1,55 +1,61 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-import {MdSupportAgent} from '../../node_modules/react-icons/md/index.esm'
-import {MdPeopleAlt} from '../../node_modules/react-icons/md/index.esm'
-import {AiOutlineBank} from '../../node_modules/react-icons/ai/index.esm'
-import {BiHomeAlt2} from '../../node_modules/react-icons/bi/index.esm'
-import {AiOutlineMenu} from '../../node_modules/react-icons/ai/index.esm'
-import {BsFillEyeFill} from '../../node_modules/react-icons/bs/index.esm'
 import './Menu.css'
-import logoMenu from '../assets/logoMenu.png'
-
-function showMenuBurger() {
-  let menuBurger = document.querySelector('.mobile-menu')
-  if (menuBurger.classList.contains('open')){
-    menuBurger.classList.remove('open')
-  } else {
-    menuBurger.classList.add('open')
-  }
-}
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/js/index.esm'
+import logoMenu from "../assets/logo-pequena-verde.svg"
 
 function Menu() {
-  
-  return (
-    <>
-      <div className='menu'>
-        <img src={logoMenu} alt="" />
+    return (
+        <>
+             <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <div className="container-fluid ">
 
-        <nav className='menu-web'>
-          <li className='nav-item'><a href="#inicio">Inicio</a></li>
-          <li className='nav-item'><a href="#educacional">Educacional</a></li>
-          <li className='nav-item'><a href="#quem-somos">Quem Somos</a></li>
-          <li className='nav-item'><a href="#suporte">Suporte</a></li>
-          <BsFillEyeFill></BsFillEyeFill>
-        </nav>
+                        <img src={logoMenu} alt="" width="150px" height="100px" style={{margin:"0px", padding:"0px"}} />
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
 
-        <div className='profile'>
-        </div>
+                    <div className="collapse navbar-collapse justify-content-center text-center" id="navbarNav">
+                     <div className='d-flex justify-content-center'>
+                        <a className='d-block d-lg-none ' href="#" style={{backgroundColor:"#157E41", width:"80px" ,height:"80px", borderRadius:"50%"}}/> 
+                     </div>
+                            <div className='d-none d-lg-block'></div>
+                        <ul className="navbar-nav">
+                            <li className="nav-item Limpay-teste mx-3">
+                                <a className="nav-link active " aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle mx-3" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Carteira
+                            </a>
+                                <ul className="dropdown-menu text-center " aria-labelledby="navbarDropdownMenuLink" id="carteira" style={{backgroundColor:"#157E41"}}>
+                                    <li ><a className="dropdown-item " href="#" style={{color:"#fff", backgroundColor:"#157E41"}} >Carteira</a></li>
+                                    <li><hr className="dropdown-divisor" style={{color:"#fff", border:"solid 1px #fff"}} /></li>
+                                    <li><a className="dropdown-item" href="#"  style={{color:"#fff", backgroundColor:"#157E41"}} >Saldo em conta R$250,00</a></li>
+                                    <div className="d-flex justify-content-center">
+                                        <button type='button' className="dropdown-item btn btn-link btn-sm " style={{backgroundColor:"#157E41"}}><a  href="#">Mais informações</a></button>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li className="nav-item Limpay-teste mx-3">
+                                <a className="nav-link" href="#">Educacional</a>
+                            </li>
+                            <li className="nav-item Limpay-teste mx-3">
+                                <a className="nav-link" href="#">Quem Somos</a>
+                            </li>
+                            <li className="nav-item Limpay-teste mx-3">
+                                <a className="nav-link" href="#" tabindex="-1" aria-disabled="true">Suporte</a>
+                            </li>
+                        </ul>
+                    </div>
 
-        <div className='mobile-menu-icon' onClick={showMenuBurger}>
-          <AiOutlineMenu></AiOutlineMenu>
-        </div>
-      </div>
-      
-      <div className='mobile-menu'>
-        <nav>
-          <li className='nav-item'> <BiHomeAlt2></BiHomeAlt2><a href="#inicio">Inicio</a></li>
-          <li className='nav-item'> <AiOutlineBank></AiOutlineBank><a href="#educacional">Educacional</a></li>
-          <li className='nav-item'> <MdPeopleAlt></MdPeopleAlt><a href="#quem-somos">Quem Somos</a></li>
-          <li className='nav-item'> <MdSupportAgent></MdSupportAgent><a href="#suporte">Suporte</a></li>                                 
-        </nav>
-      </div>
-    </>
-  )
+                    <a className='d-none d-lg-block ' href="#" style={{backgroundColor:"#157E41", width:"80px" ,height:"80px", borderRadius:"50%"}}>
+                    <div className='d-none d-lg-block'></div>
+                    </a>
+                </div>
+            </nav>  
+
+        </>
+    )
 }
 
 export default Menu
