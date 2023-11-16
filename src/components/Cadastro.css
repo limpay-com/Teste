@@ -1,0 +1,25 @@
+label{
+    transform: translate(0,15px);
+    background-color: white;
+    display: inline;
+    width: 60px;
+    text-align: center;
+    padding: 4px;
+}
+
+button{
+    width: 200px;
+    margin: auto;
+}
+
+#labelat {
+    width: 130px;
+}
+
+
+
+
+
+
+
+
