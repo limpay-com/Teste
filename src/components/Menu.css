@@ -1,0 +1,10 @@
+.Limpay-teste{
+    border:solid 2px transparent;
+}
+
+.Limpay-teste:hover{
+    border-bottom:solid 2px #157E41 ; 
+    box-sizing: border-box;
+    transition: 0.7s;
+}
+
