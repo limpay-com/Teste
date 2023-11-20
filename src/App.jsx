@@ -1,14 +1,15 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
-import "./components/Menu.jsx"
-import Menu from './components/Menu.jsx';
+import { useState } from 'react';
+import './App.css';
+import Cadastro from './components/cadastro/Cadastro';
 
 function App() {
+  const [count, setCount] = useState(0);
+
   return (
     <>
-      <Menu></Menu>
+      <Cadastro></Cadastro>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
