@@ -25,13 +25,12 @@ input::placeholder{
 }
 
 button{
-    width: 200px;
+    width: 250px;
     margin: auto;
 }
 
 #labelat {
     width: 150px;
-    margin-top: -20px;
 }
 
 .icone{
@@ -47,21 +46,14 @@ button{
     display: none;
 }
 
-#select{
-    width: 40vw;
+.logoRedesSociais{
+    font-size: 40px;
 }
 
-#btn-criarConta {
-    text-align: center;
-    justify-content: center;
+.fundo {
+    width: 12vw;
+    height: 55px;
 }
-
-
-
-
-
-
-
 
 
 
