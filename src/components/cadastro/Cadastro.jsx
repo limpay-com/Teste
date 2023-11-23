@@ -1,6 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.esm';
 import './Cadastro.css';
 import limpandoEscritório from '../../assets/images/homem-limpeza-seu-lar.jpg';
 

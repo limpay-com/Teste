@@ -1,14 +1,16 @@
-import { useState } from 'react';
 import './App.css';
-import Cadastro from './components/cadastro/Cadastro';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.esm';
+import Carrossel from '/src/components/carrossel/Carrossel';
+import CardGrid from './components/cardGrid/CardGrid';
+import Titulo from './components/titulo/Titulo';
+import Inicio from './components/inicio/Inicio';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <Cadastro></Cadastro>
-    </>
+    <div>
+      <Inicio />
+    </div>
   );
 }
 
