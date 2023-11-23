@@ -16,25 +16,25 @@ const CardPerfil = () => {
               <div className="container text-center">
                 <button
                   type="button"
-                  class="btn btn-success btn-xs customizado-botao"
+                  className="btn btn-success btn-xs customizado-botao"
                 >
                   Cozinha
                 </button>
                 <button
                   type="button"
-                  class="btn btn-success btn-xs customizado-botao"
+                  className="btn btn-success btn-xs customizado-botao"
                 >
                   Lavanderia
                 </button>
                 <button
                   type="button"
-                  class="btn btn-success btn-xs customizado-botao"
+                  className="btn btn-success btn-xs customizado-botao"
                 >
                   Cozinha
                 </button>
                 <button
                   type="button"
-                  class="btn btn-success btn-xs customizado-botao"
+                  className="btn btn-success btn-xs customizado-botao"
                 >
                   Sala de Jantar
                 </button>
