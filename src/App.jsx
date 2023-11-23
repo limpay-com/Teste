@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import './App.css';
-import Cadastro from './components/cadastro/Cadastro';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.esm';
+import { Outlet } from 'react-router-dom';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <Cadastro></Cadastro>
+      <Outlet />
     </>
   );
 }
