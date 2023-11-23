@@ -41,10 +41,7 @@ function Cadastro() {
           action="Cadastrar"
           method="post"
         >
-          <h1 className=" d-flex justify-content-start fw-bold ">
-            {' '}
-            Faça parte
-          </h1>
+          <h1 className=" d-flex justify-content-start fw-bold ">Faça parte</h1>
           <label className="mx-2 " htmlFor="nome">
             Nome
           </label>
@@ -71,7 +68,7 @@ function Cadastro() {
             className="rounded-3 border border-dark p-2 senha"
             type="password"
             placeholder="Insira sua senha"
-          />{' '}
+          />
           <FaRegEyeSlash
             className="icone iconesenhafechado"
             onClick={MostrarSenha}
@@ -95,9 +92,8 @@ function Cadastro() {
           </div>
           <div className="mx-2" id="select">
             <p className="mx-auto mb-4">
-              Ao clicar en Criar nova conta, você concorda com nossos{' '}
+              Ao clicar en Criar nova conta, você concorda com nossos
               <a href="" className="link ">
-                {' '}
                 Termos e politicas e privacidade
               </a>
             </p>
@@ -106,13 +102,11 @@ function Cadastro() {
             className="btn btn-primary my-2 p-2 rounded-3 border border-light fw-bold"
             style={{ background: '#157E41' }}
           >
-            {' '}
-            Criar nova conta{' '}
+            Criar nova conta
           </button>
           <div className="mx-auto">
             <p className="mx-auto my-2 fw-bold">
-              {' '}
-              já possui uma conta? então faça o <Link to="/"> Login</Link>{' '}
+              <Link to="/login">já possui uma conta? então faça o login</Link>
               <IoIosArrowForward />
             </p>
           </div>

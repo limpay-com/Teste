@@ -8,8 +8,8 @@ const Carrossel = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="/src/assets/images/carrossel/Jarra-vaso-flor.png"
-              className="rounded d-block w-100"
+              src="/src/assets/images/carrossel/Jarra-vaso-flor.jpg"
+              className="rounded d-block w-100 carrossel-image"
               alt="..."
             />
             <div className="carousel-caption d-md-block">
@@ -19,8 +19,8 @@ const Carrossel = () => {
           </div>
           <div className="carousel-item">
             <img
-              src="/src/assets/images/carrossel/mulher-quarto.png"
-              className="rounded d-block w-100"
+              src="/src/assets/images/carrossel/mulher-quarto.jpg"
+              className="rounded d-block w-100 carrossel-image"
               alt="..."
             />
             <div className="carousel-caption d-md-block">
@@ -30,8 +30,8 @@ const Carrossel = () => {
           </div>
           <div className="carousel-item">
             <img
-              src="/src/assets/images/carrossel/balde-produtos.png"
-              className="rounded d-block w-100 "
+              src="/src/assets/images/carrossel/balde-produtos.jpg"
+              className="rounded d-block w-100 carrossel-image"
               alt="..."
             />
             <div className="carousel-caption d-md-block">
