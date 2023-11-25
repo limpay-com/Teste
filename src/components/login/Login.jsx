@@ -23,16 +23,16 @@ function MostrarSenha() {
 
 function Login() {
   return (
-    <div className="d-flex align-items-center w-100">
-      <div id="cadastro-form w-50">
+    <div className="d-flex align-items-center body">
+      <div id="login-form">
         <form
-          className="px-5 d-flex flex-column mx-5 gap-1  "
+          className="px-5 d-flex flex-column mx-5 gap-3 gap-lg-1"
           id="forms"
           action="Cadastrar"
           method="post"
         >
           <h1 className=" d-flex justify-content-start fw-bold ">Login</h1>
-          <label className="mx-2" htmlFor="email">
+          <label className="mx-2 label" htmlFor="email">
             Email
           </label>
           <input
@@ -41,7 +41,7 @@ function Login() {
             id="email"
             placeholder="Insira seu e-mail"
           />
-          <label className="mx-2 " htmlFor="senha">
+          <label className="mx-2 label" htmlFor="senha">
             Senha
           </label>
           <input
@@ -109,7 +109,7 @@ function Login() {
           </div>
         </form>
       </div>
-      <div className="w-100 h-80">
+      <div className="w-100 h-80" id='container-background'>
         <img
           id="background"
           src={limpandoEscritório}

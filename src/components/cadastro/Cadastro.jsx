@@ -33,7 +33,7 @@ function MostrarConfirmSenha() {
 
 function Cadastro() {
   return (
-    <div className="d-flex align-items-center">
+    <div className="d-flex align-items-center body" >
       <div id="cadastro-form">
         <form
           className="px-5 d-flex flex-column mx-5 gap-1 "
@@ -70,7 +70,7 @@ function Cadastro() {
             placeholder="Insira sua senha"
           />
           <FaRegEyeSlash
-            className="icone iconesenhafechado"
+            className="icone-cadastro "
             onClick={MostrarSenha}
           ></FaRegEyeSlash>
           <label className="mx-2 " htmlFor="confirmSenha" id="labelat">
@@ -83,7 +83,7 @@ function Cadastro() {
             placeholder="Confirme sua senha"
           />
           <FaRegEyeSlash
-            className="icone iconesenhafechado"
+            className="icone-cadastro"
             onClick={MostrarConfirmSenha}
           ></FaRegEyeSlash>
           <div className="mx-2 my-2">
@@ -106,13 +106,13 @@ function Cadastro() {
           </button>
           <div className="mx-auto">
             <p className="mx-auto my-2 fw-bold">
-              <Link to="/login">já possui uma conta? então faça o login</Link>
-              <IoIosArrowForward />
+              <Link to="/login">já possui uma conta? então faça o login <IoIosArrowForward /></Link>
+              {/* O icone precisa ficar na mesma linha que o texto para não ficar na linha de baixo */}
             </p>
           </div>
         </form>
       </div>
-      <div className="w-100 h-100">
+      <div className="w-100 h-100" id="container-background">
         <img
           id="background"
           src={limpandoEscritório}
