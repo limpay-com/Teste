@@ -4,6 +4,7 @@ import { FaRegEyeSlash } from 'react-icons/fa';
 import { IoIosArrowForward } from 'react-icons/io';
 import limpandoEscritório from '../../assets/images/homem-limpeza-seu-lar.jpg';
 import { Link } from 'react-router-dom';
+import Menu from '../menu/Menu';
 
 function MostrarSenha() {
   const olhoFechado = document.querySelector('.FaRegEyeSlash');
@@ -33,15 +34,16 @@ function MostrarConfirmSenha() {
 
 function Cadastro() {
   return (
-    <div className="d-flex align-items-center body" >
-      <div id="cadastro-form">
+    <>
+    <div className="d-flex align-items-center body" id='conteiner'>
+      <div id="cadastro-form" className='p-3'>
         <form
-          className="px-5 d-flex flex-column mx-5 gap-1 "
+          className="px-2 px-lg-5 d-flex flex-column mx-lg-5 mx-3 gap-1 "
           id="forms"
           action="Cadastrar"
           method="post"
         >
-          <h1 className=" d-flex justify-content-start fw-bold ">Faça parte</h1>
+          <h1 className=" d-flex justify-content-start fw-bold ">Cadastre-se</h1>
           <label className="mx-2 " htmlFor="nome">
             Nome
           </label>
@@ -49,7 +51,7 @@ function Cadastro() {
             className="rounded-3 border border-dark p-2"
             type="text"
             id="nome"
-            placeholder="insira seu nome completo"
+            placeholder="Insira seu nome completo"
           />
           <label className="mx-2" htmlFor="email">
             Email
@@ -86,10 +88,10 @@ function Cadastro() {
             className="icone-cadastro"
             onClick={MostrarConfirmSenha}
           ></FaRegEyeSlash>
-          <div className="mx-2 my-2">
+          {/* <div className="mx-2 ">
             <input className="mx-auto " type="checkbox" id="aceitarTermos" />
             <label htmlFor="aceitarTermos">Aceito os termos de Uso</label>
-          </div>
+          </div> */}
           <div className="mx-2" id="select">
             <p className="mx-auto mb-4">
               Ao clicar en Criar nova conta, você concorda com nossos
@@ -99,14 +101,13 @@ function Cadastro() {
             </p>
           </div>
           <button
-            className="btn btn-primary my-2 p-2 rounded-3 border border-light fw-bold"
-            style={{ background: '#157E41' }}
+            className="btn btn-primary my-1 p-2 rounded-3 border border-light fw-bold"
           >
             Criar nova conta
           </button>
           <div className="mx-auto">
             <p className="mx-auto my-2 fw-bold">
-              <Link to="/login">já possui uma conta? então faça o login <IoIosArrowForward /></Link>
+              <Link to="/login">já possui uma conta? <a href="" className='d-inline link-primary'>faça o login</a> <IoIosArrowForward /></Link>
               {/* O icone precisa ficar na mesma linha que o texto para não ficar na linha de baixo */}
             </p>
           </div>
@@ -121,6 +122,7 @@ function Cadastro() {
         />
       </div>
     </div>
+    </>
   );
 }
 

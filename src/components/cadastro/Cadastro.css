@@ -6,6 +6,9 @@
     object-fit: cover;
 }
 
+#cadastro-form{
+    background-color:#F5F7FA ;
+}
 
 input {
     font-weight: 400;
@@ -18,8 +21,8 @@ input::placeholder{
 
 
 #labelat {
-    width: 150px;
-    margin-top: -20px;
+    width: 125px;
+    margin-top: -10px;
 }
 
 .icone-cadastro{
@@ -52,8 +55,41 @@ input::placeholder{
         padding: 10px;
     }
 
-    label{
-        background-color: aqua;
+
+    .btn {
+        width: 150px;
+    }
+}
+
+
+@media (max-width:480px) {
+
+    #cadastro-form{
+        width: 90vw;
+        margin-top: 2em;
+    }
+
+    .body {
+        background-image: url("../../assets/images/homem-limpeza-seu-lar.jpg");
+        background-position: center;
+        background-size: cover;
+        background-clip: content-box;
+        background-repeat: no-repeat;
+        height: 90vh;
+        width: 100vw;
+        background-color: #d3d3d3;
+    }
+}
+
+@media (max-height:700px){
+
+    #cadastro-form{
+        width: 90vw;
+    }
+
+    
+    .btn {
+        width: 10px;
     }
 }
 

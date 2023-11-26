@@ -23,10 +23,10 @@ function MostrarSenha() {
 
 function Login() {
   return (
-    <div className="d-flex align-items-center body">
+    <div className="d-flex align-items-center body" id='conteiner'>
       <div id="login-form">
         <form
-          className="px-5 d-flex flex-column mx-5 gap-3 gap-lg-1"
+          className="px-2 px-lg-5 d-flex flex-column mx-sm-5 gap-3 gap-lg-1"
           id="forms"
           action="Cadastrar"
           method="post"
@@ -54,11 +54,16 @@ function Login() {
             className="icone iconesenhafechado"
             onClick={MostrarSenha}
           ></FaRegEyeSlash>
-          <div className="mx-2 mb-4">
-            <input className="mx-auto " type="checkbox" id="lembrarSenha" />
-            <label htmlFor="lembrarSenha">Lembrar senha</label>
+          <div className=" mb-2 d-lg-flex justify-content-between ">
+            <div>
+              <input className="mx-auto mb-4" type="checkbox" id="lembrarSenha" />
+              <label htmlFor="lembrarSenha">Lembrar senha</label>
+            </div>
+
+
+            <a href="" className='d-inline link-primary'><span className='link' id='esqueceuSenha'>Esqueceu sua senha ?</span></a>
           </div>
-          <div className="mx-2 d-flex gap-4 justify-content-center mb-4">
+          {/* <div className="mx-2 d-flex gap-4 justify-content-center mb-4 RedesSociais">
             <div
               className="btn fundo p-2"
               id="facebook"
@@ -80,16 +85,16 @@ function Login() {
             >
               <FaApple className="logoRedesSociais"></FaApple>
             </div>
-          </div>
+          </div> */}
           <button
             className="btn btn-primary my-2 p-2 rounded-3 border border-light fw-bold"
-            style={{ background: '#157E41' }}
+
           >
             {' '}
             Entrar{' '}
           </button>
-          <Link to="/cadastro" id="btn-criarConta">
-            <button
+          
+            {/* <button
               className="btn btn-secundary my-2 p-2 rounded-3 fw-bold "
               style={{
                 background: '#ffff',
@@ -99,12 +104,12 @@ function Login() {
             >
               {' '}
               Criar conta
-            </button>
-          </Link>
+            </button> */}
+          
           <div className="mx-auto">
             <p className="mx-auto my-2 fw-bold text-decoration-underline">
               {' '}
-              Não consegue entrar? <IoIosArrowForward />
+              Não tem uma conta? <Link to="/cadastro" id="btn-criarConta" className='d-inline link-primary'>  Cadastre-se<IoIosArrowForward /></Link>
             </p>
           </div>
         </form>
