@@ -1,5 +1,5 @@
 import './Menu.css';
-import logoMenu from '../../assets/logo-pequena-verde.svg';
+import logoMenu from '../../assets/logo-pequena-azul.svg';
 import { Link } from 'react-router-dom';
 
 function Menu() {
