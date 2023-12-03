@@ -6,13 +6,16 @@ import CardImagem from '../cardImagem/CardImagem';
 import AreaInterna from '../../assets/images/cardImagem/interna.png';
 import aExterna from '../../assets/images/cardImagem/externa.png';
 import Educacional from '../../assets/images/cardImagem/educacional.png';
+import Banner from '../banner/Banner'
+import MulherEspirrando from '../../assets/images/Imagem-mulher-espirrando-tela.jpeg'
 
 const Inicio = () => {
   return (
     <div>
+      <Banner imagesrc={MulherEspirrando} title={"Conheça a Limpay"} />
       <div className="container">
         <div className="row">
-          <div className="col-12">
+          <div className="col-12">   
             <Carrossel />
           </div>
         </div>
