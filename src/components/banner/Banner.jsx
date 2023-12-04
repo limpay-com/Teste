@@ -13,7 +13,7 @@ const Banner = ({imagesrc , title}) => {
         nossas cores e muito mais!
       </div>
       </div>
-      <div className="container d-flex h-100 w-50 justify-content-center">
+      <div className="container d-flex h-100 w-50 justify-content-center" id="c-img">
       <img
         alt=""
         src={imagesrc}

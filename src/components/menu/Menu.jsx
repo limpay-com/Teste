@@ -107,9 +107,9 @@ function Menu() {
                 </a>
               </li>
               <li className="nav-item Limpay-teste mx-3">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/QuemSomos">
                   Quem Somos
-                </a>
+                </Link>
               </li>
               <li className="nav-item Limpay-teste mx-3">
                 <a
