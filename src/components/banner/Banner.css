@@ -17,4 +17,11 @@
       color: var(--branco);
       font-family: var(--font-poppins);
     }
+
+    #c-img img{
+      width: 150px;
+      height: 200px;
+      margin-top: 20vh;
+    }
+    
   }

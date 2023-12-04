@@ -1,0 +1,21 @@
+#c-resultados{
+    background-color:var(--cinza-final) ;
+    max-width: 90vw;
+    transform: translateY(-20px);
+    margin: auto;
+}
+
+.p{
+    max-width: 900px;
+}
+
+@media (max-width:578px) {
+    .p{
+        font-size: x-small;
+    }
+
+    #c-resultados{
+        max-width: 80vw;
+        margin: auto;
+    }
+}
