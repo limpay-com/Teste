@@ -3,6 +3,8 @@ import MulherEspirrando from '../../assets/images/Imagem-mulher-espirrando-tela.
 import Resultadosparacomunidade from '../resultadosparacomunidade/resultadosparacomunidade.jsx'
 import Valores from '../valores/Valores.jsx'
 import Cores from '../cores/Cores.jsx'
+import TimeLimpay from '../timeLimpay/TimeLimpay.jsx'
+
 
 
 
@@ -13,6 +15,7 @@ return(
     <Resultadosparacomunidade></Resultadosparacomunidade>
     <Valores></Valores>
     <Cores></Cores>
+    <TimeLimpay/>
     </>
 )
 }

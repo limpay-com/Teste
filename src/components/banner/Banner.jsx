@@ -5,7 +5,7 @@ import MulherEspirrando from "../../assets/images/Imagem-mulher-espirrando-tela.
 
 const Banner = ({imagesrc , title}) => {
   return (
-    <div className=" bg-primary banner d-flex ">
+    <div className=" bg-primary banner d-flex w-100">
     <div className=" d-flex flex-column justify-content-center align-items-center w-50">
       <div className="m-1"><Titulo content={title}></Titulo></div>
       <div className="m-1 w-50">
