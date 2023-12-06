@@ -4,7 +4,9 @@ import Resultadosparacomunidade from '../resultadosparacomunidade/resultadospara
 import Valores from '../valores/Valores.jsx'
 import Cores from '../cores/Cores.jsx'
 import TimeLimpay from '../timeLimpay/TimeLimpay.jsx'
-
+import Monetizacao from '../monetização/Monetizacao.jsx'
+import Crescimentotecnologico from '../crescimentoTecnologico/CrescimentoTecnologico.jsx'
+import Planos from '../planos/Planos.jsx'
 
 
 
@@ -16,6 +18,9 @@ return(
     <Valores></Valores>
     <Cores></Cores>
     <TimeLimpay/>
+    <Monetizacao/>
+    <Crescimentotecnologico></Crescimentotecnologico>
+    <Planos></Planos>
     </>
 )
 }
