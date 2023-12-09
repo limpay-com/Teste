@@ -7,6 +7,7 @@ import Cadastro from './components/cadastro/Cadastro.jsx';
 import Login from './components/login/Login.jsx';
 import Inicio from './components/inicio/Inicio.jsx';
 import QuemSomos from './components/quemsomos/QuemSomos.jsx';
+import Suporte from './components/suporte/Suporte.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,15 +19,20 @@ const router = createBrowserRouter([
         element: <Login></Login>,
       },
       {
-        path: 'cadastro',
+        path: '/cadastro',
         element: <Cadastro></Cadastro>,
       },
       {
         path: '/',
         element: <Inicio />,
-      },{
-        path: '/QuemSomos',
+      },
+      {
+        path: '/quemSomos',
         element:<QuemSomos></QuemSomos>
+      },
+      {
+        path: '/suporte',
+        element:<Suporte></Suporte>
       }
     ],
   },
