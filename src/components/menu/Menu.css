@@ -3,8 +3,12 @@
 }
 
 .Limpay-teste:hover{
-    border-bottom:solid 2px #157E41 ; 
+    border-bottom:solid 2px #005dff ; 
     box-sizing: border-box;
     transition: 0.7s;
+}
+
+.navbar-toggler {
+    width: 100px;
 }
 
