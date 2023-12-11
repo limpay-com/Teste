@@ -7,18 +7,20 @@ import AreaInterna from '../../assets/images/cardImagem/interna.png';
 import aExterna from '../../assets/images/cardImagem/externa.png';
 import Educacional from '../../assets/images/cardImagem/educacional.png';
 import Banner from '../banner/Banner'
-import MulherEspirrando from '../../assets/images/Imagem-mulher-espirrando-tela.jpeg'
+import MulherEspirrando from '../../assets/images/Imagem-mulher-espirrando-tela.jpeg';
+import FiltroRápido from '../filtroRápido/FiltroRápido';
 
 const Inicio = () => {
   return (
     <div>
-      <Banner imagesrc={MulherEspirrando} title={"Conheça a Limpay"} />
+      <Banner imagesrc={MulherEspirrando} title={"Você em boas mãos!"} p={"Serviços especializados de limpeza para sua casa ou empresa"}/>
       <div className="container">
-        <div className="row">
+        {/* <div className="row">
           <div className="col-12">   
             <Carrossel />
           </div>
-        </div>
+        </div> */}
+        <FiltroRápido></FiltroRápido>
         <div className="row">
           <div className="col-6 ">
             <Titulo content={'Perfis em destaque'} />

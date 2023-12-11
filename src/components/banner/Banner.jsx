@@ -3,14 +3,13 @@ import Titulo from "../titulo/Titulo";
 import MulherEspirrando from "../../assets/images/Imagem-mulher-espirrando-tela.jpeg";
 
 
-const Banner = ({imagesrc , title}) => {
+const Banner = ({imagesrc , title , p}) => {
   return (
     <div className=" bg-primary banner d-flex w-100">
     <div className=" d-flex flex-column justify-content-center align-items-center w-50">
       <div className="m-1"><Titulo content={title}></Titulo></div>
       <div className="m-1 w-50">
-        Nossos valores e missões, conheça os membros da equipe Limpay , sobre
-        nossas cores e muito mais!
+        {p}
       </div>
       </div>
       <div className="container d-flex h-100 w-50 justify-content-center" id="c-img">

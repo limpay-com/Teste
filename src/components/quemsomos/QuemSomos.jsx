@@ -13,7 +13,8 @@ import Planos from '../planos/Planos.jsx'
 function QuemSomos() {
 return(
     <>
-    <Banner imagesrc={MulherEspirrando} title={"Conheça a Limpay"}></Banner>
+    <Banner imagesrc={MulherEspirrando} title={"Conheça a Limpay"} p="Nossos valores e missões, conheça os membros da equipe Limpay , sobre
+        nossas cores e muito mais!"></Banner>
     <Resultadosparacomunidade></Resultadosparacomunidade>
     <Valores></Valores>
     <Cores></Cores>
