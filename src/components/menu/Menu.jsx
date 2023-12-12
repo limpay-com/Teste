@@ -1,12 +1,15 @@
 import './Menu.css';
 import logoMenu from '../../assets/logo-pequena-azul.svg';
+import PerfilMenu from '../../assets/images/menu/Group.svg';
 import { Link } from 'react-router-dom';
+import { IoIosArrowDown } from "react-icons/io";
+
 
 function Menu() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container">
+        <div className="container ">
           <img
             src={logoMenu}
             alt=""
@@ -15,7 +18,7 @@ function Menu() {
             style={{ margin: '0px', padding: '0px' }}
           />
           <button
-            className="navbar-toggler"
+            className="navbar-toggler m-0"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -31,16 +34,16 @@ function Menu() {
             id="navbarNav"
           >
             <div className="d-flex justify-content-center">
-              <a
-                className="d-block d-lg-none "
+
+                <a
+                className="d-block d-lg-none text-decoration-none  "
                 href="#"
-                style={{
-                  backgroundColor: '#157E41',
-                  width: '80px',
-                  height: '80px',
-                  borderRadius: '50%',
-                }}
-              />
+              >
+                <div > <img src={PerfilMenu} alt="" /> olá, faça seu login
+                  ou cadastre-se <IoIosArrowDown/>
+                </div>
+              </a>
+              
             </div>
             <div className="d-none d-lg-block"></div>
             <ul className="navbar-nav">
@@ -61,16 +64,16 @@ function Menu() {
                   Carteira
                 </a>
                 <ul
-                  className="dropdown-menu text-center "
+                  className="dropdown-menu text-center p-2"
                   aria-labelledby="navbarDropdownMenuLink"
                   id="carteira"
-                  style={{ backgroundColor: '#157E41' }}
+                  style={{ backgroundColor: '#005dff' }}
                 >
                   <li>
                     <a
                       className="dropdown-item "
                       href="#"
-                      style={{ color: '#fff', backgroundColor: '#157E41' }}
+                      style={{ color: '#fff', backgroundColor: '#005dff' }}
                     >
                       Carteira
                     </a>
@@ -81,23 +84,26 @@ function Menu() {
                       style={{ color: '#fff', border: 'solid 1px #fff' }}
                     />
                   </li>
-                  <li>
+                  <li className='d-flex'>
                     <a
-                      className="dropdown-item"
+                      className="dropdown-item fs-6"
                       href="#"
-                      style={{ color: '#fff', backgroundColor: '#157E41' }}
+                      style={{ color: '#fff', backgroundColor: '#005dff' }}
                     >
-                      Saldo em conta R$250,00
+                      Saldo em conta 
+                      
+                    </a>
+                    <a
+                      className="dropdown-item fs-6"
+                      href="#"
+                      style={{ color: '#fff', backgroundColor: '#005dff' }}
+                    >
+                       R$250,00
+                      
                     </a>
                   </li>
-                  <div className="d-flex justify-content-center">
-                    <button
-                      type="button"
-                      className="dropdown-item btn btn-link btn-sm "
-                      style={{ backgroundColor: '#157E41' }}
-                    >
-                      <a href="#">Mais informações</a>
-                    </button>
+                  <div className="d-flex justify-content-center ">
+                      <a className='p-branco fw-light mt-2' href="#">Mais informações</a>
                   </div>
                 </ul>
               </li>
@@ -112,29 +118,25 @@ function Menu() {
                 </Link>
               </li>
               <li className="nav-item Limpay-teste mx-3">
-                <a
+                <Link
+                  to="/suporte"
                   className="nav-link"
                   href="#"
                   tabIndex="-1"
                   aria-disabled="true"
                 >
                   Suporte
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
 
           <a
-            className="d-none d-lg-block "
+            className="d-none d-lg-block text-decoration-none  "
             href="#"
-            style={{
-              backgroundColor: '#157E41',
-              width: '80px',
-              height: '80px',
-              borderRadius: '50%',
-            }}
           >
-            <div className="d-none d-lg-block"></div>
+            <div className="d-none d-lg-block"> <img src={PerfilMenu} alt="" /> olá, faça seu login
+ou cadastre-se <IoIosArrowDown/></div>
           </a>
         </div>
       </nav>

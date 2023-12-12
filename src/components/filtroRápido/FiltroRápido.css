@@ -1,0 +1,95 @@
+.c-pesquisarapida{
+    background-color: #ffffff; ;
+    max-width: 90vw;
+    transform: translateY(-20px);
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+.pesquisa-rapida{
+    margin: 1em;
+}
+
+.multiselect {
+    width: 200px;
+  }
+  
+  .selectBox {
+    position: relative;
+    width: 280px;
+  }
+
+  .adicionais{
+    margin-left: 40px;
+  }
+
+  .selectBox select {
+    width: 100%;
+  }
+  
+  .overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  #checkboxes {
+    display: none;
+    border: 1px #ffffff solid;
+  }
+
+  #checkboxes2 {
+    display: none;
+    border: 1px #ffffff solid;
+    margin-left: 50px;
+  }
+  
+  #checkboxes label {
+    display: block;
+  }
+  
+  #checkboxes label:hover {
+    background-color: #1e90ff;
+  }
+
+  .label-checkbox{
+    width: 100%;
+    float: left;
+  }
+
+  .label-checkbox input{
+    margin: 5px;
+    float: left;
+  }
+
+  #outrosfiltros{
+    padding-top:5px ;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  @media (max-width:578px) {
+    .selectBox {
+      position: relative;
+      width: 150px;
+    }
+  }
+
+  
+  @media (max-width:768px) {
+    .selectBox {
+      position: relative;
+      width: 150px;
+    }
+
+    
+  #checkboxes2 {
+    display: none;
+    border: 1px #ffffff solid;
+    margin-left: 10px;
+  }
+  
+  }
