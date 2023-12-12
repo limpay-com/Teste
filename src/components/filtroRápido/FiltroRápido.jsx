@@ -30,12 +30,11 @@ function showCheckboxes2() {
 
 function filtroRápido() {
     return (
-        <div className="bg-light p-2 c-pesquisarapida">
+        <div className=" p-2 c-pesquisarapida">
             <h2 className="pesquisa-rapida">Pesquisa rápida</h2>
             <div className="d-flex justify-content-start gap-">
                 <div className="select mx-2 mx-lg-4">
-                    <label htmlFor="Tipos de Limpeza ">Tipos de Limpeza</label>
-                    <form>
+                    <form id="Tiposlimpeza">
                         <div className="multiselect ">
                             <div className="selectBox" onClick={showCheckboxes}>
                                 <select className="form-select my-2 p-2 ">
@@ -45,36 +44,35 @@ function filtroRápido() {
                             </div>
                             <div id="checkboxes">
                                 <label className="label-checkbox" for="one">
-                                    <input type="checkbox" id="one" />First checkbox</label>
+                                    <input type="checkbox" id="one" />limpeza residencial</label>
                                 <label className="label-checkbox" for="two">
-                                    <input type="checkbox" id="two" />Second checkbox</label>
+                                    <input type="checkbox" id="two" />limpeza interna</label>
                                 <label className="label-checkbox" for="three">
-                                    <input type="checkbox" id="three" />Third checkbox</label>
+                                    <input type="checkbox" id="three" />limpeza completa</label>
                             </div>
                         </div>
                     </form>
                 </div>
                 <div className="select mx-2 mx-lg-4">
-                    <label htmlFor="Tipos de Limpeza" className="adicionais">Adicionais</label>
-                    <form>
+                    <form id="Adicionais">
                         <div className="multiselect ">
                             <div className="selectBox adicionais" onClick={showCheckboxes2}>
-                                <select className="form-select  my-2 p-2">
+                                <select className="form-select my-2 p-2">
                                     <option >Adicionais</option>
                                 </select>
                                 <div className="overSelect"></div>
                             </div>
                             <div id="checkboxes2">
-                            <label className="label-checkbox" for="one">
-                                    <input type="checkbox" id="one" />Lavar louça</label>
-                                <label className="label-checkbox" for="two">
-                                    <input type="checkbox" id="two" />Passar roupa</label>
-                                <label className="label-checkbox" for="three">
-                                    <input type="checkbox" id="three" />Limpar vidros</label>
-                                <label className="label-checkbox" for="three">
-                                    <input type="checkbox" id="three" />Limpeza de janelas</label>
-                                <label className="label-checkbox" for="three">
-                                    <input type="checkbox" id="three" />Limpeza de eletrônicos</label>
+                            <label className="label-checkbox" for="oneform2">
+                                    <input type="checkbox" id="oneform2" />Lavar louça</label>
+                                <label className="label-checkbox" for="twoform2">
+                                    <input type="checkbox" id="twoform2" />Passar roupa</label>
+                                <label className="label-checkbox" for="threeform2">
+                                    <input type="checkbox" id="threeform2" />Limpar vidros</label>
+                                <label className="label-checkbox" for="fourform2">
+                                    <input type="checkbox" id="fourform2" />Limpeza de janelas</label>
+                                <label className="label-checkbox" for="fiveform2">
+                                    <input type="checkbox" id="fiveform2" />Limpeza de eletrônicos</label>
                             </div>
                         </div>
                     </form>
