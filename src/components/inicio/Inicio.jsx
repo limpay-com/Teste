@@ -14,11 +14,15 @@ import './Inicio.css'
 import Home from "../../assets/images/inicio/home.svg"
 import Book from "../../assets/images/inicio/book-open.svg"
 import { Link } from 'react-router-dom';
+import UpCycle from '../../assets/images/inicio/parceiros/upcycle.svg'
+import Proa from '../../assets/images/inicio/parceiros/logo proa 1.svg'
+import Lacoos from '../../assets/images/inicio/parceiros/lacoos 2.svg'
+import mulherLimpando from '../../assets/images/inicio/mulher-limpando-a-tela.png'
 
 const Inicio = () => {
   return (
     <div className='fundo-inicial'>
-      <Banner imagesrc={MulherEspirrando} title={"Você em boas mãos!"} p={"Serviços especializados de limpeza para sua casa ou empresa"} />
+      <Banner imagesrc={mulherLimpando} title={"Você em boas mãos!"} p={"Serviços especializados de limpeza para sua casa ou empresa"} />
       <div className="container ">
         {/* <div className="row">
           <div className="col-12">   
@@ -41,10 +45,6 @@ const Inicio = () => {
             <p>O que temos para fazer a sua casa brilhar </p>
           </div>
 
-          <div className="col-6 ">
-            <h2 className="fs-6 text-end mt-4 "><a href="" className="c-texto-azul text-decoration-none fw-bold">Acessar todos <IoIosArrowForward></IoIosArrowForward> </a> </h2>
-          </div>
-
           <div className='d-flex justify-content-center flex-wrap'>
             <div className="card m-3 d-inline-block" style={{ width: 350 }}>
               <div class="card-body">
@@ -60,11 +60,13 @@ const Inicio = () => {
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Limpeza de casa recorrente</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-
+                        <p>
+                        Limpeza de casa recorrente - Para quando você quer contar com sua casa sempre limpa e aconchegante. Selecione duas ou mais diárias que gostaria de contratar ou programe quantas diárias deseja no mês
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -87,11 +89,13 @@ const Inicio = () => {
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel2">Modal title 2</h5>
+                        <h5 class="modal-title" id="exampleModalLabel2">Limpeza interna</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-
+                        <p>
+                        Limpeza interna - Para quem sofre com a bagunça de dentro dos armários, essa limpeza é para você. Uma seleção especial que prioriza a limpeza interna dos móveis dos cômodos que você seleciona
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -113,11 +117,13 @@ const Inicio = () => {
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel3">Modal title 3</h5>
+                        <h5 class="modal-title" id="exampleModalLabel3">Limpeza completa</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-
+                        <p>
+                        Limpeza completa - Para quando você não sabe por onde começar, a limpeza completa é para você. Selecione os cômodos principais que deseja efetuar a limpeza e varreremos os seus problemas para você
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -158,9 +164,17 @@ const Inicio = () => {
       </div>
 
       <div className='d-flex justify-content-center align-items-center flex-column'>
-        <h2>Parceiros </h2>
-        <div>
-
+        <h2 className='m-4 fw-bold' id='titulo-parceiros'>Parceiros que confiam em nós</h2>
+        <div className='d-flex justify-content-center gap-4'>
+          <div className='m-4'>
+            <img className='w-100' src={Lacoos} alt="" />
+          </div>
+          <div className='m-4'>
+            <img className='w-100' src={Proa} alt="" />
+          </div>
+          <div className='m-4'>
+            <img className='w-100' src={UpCycle} alt="" />
+          </div>
         </div>
       </div>
     </div>
