@@ -7,13 +7,13 @@ class DadosBancarios extends React.Component {
       super(props);
       this.state = {
         nome: '',
-        numeroConta: '',
-        tipoConta: '',
-        banco: '',
-        cadastrarPix: false,
-        tipoChavePix: '',
-        chavePix: '',
-        cadastradoComSucesso: false
+        chavepix: '',
+        // tipoConta: '',
+        // banco: '',
+        // cadastrarPix: false,
+        // tipoChavePix: '',
+        // chavePix: '',
+        pagamentoComSucesso: false
       };
     }
   
@@ -26,18 +26,18 @@ class DadosBancarios extends React.Component {
         event.preventDefault();
       // Aqui você pode adicionar lógica para enviar os dados para o backend
       setTimeout(() => {
-        this.setState({ cadastradoComSucesso: true });
+        this.setState({ pagamentoComSucesso: true });
 
         setTimeout(() => {
             this.setState({
               nome: '',
-              numeroConta: '',
-              tipoConta: '',
-              banco: '',
-              cadastrarPix: false,
-              tipoChavePix: '',
-              chavePix: '',
-              cadastradoComSucesso: false
+              chavepix: '',
+              // tipoConta: '',
+              // banco: '',
+              // cadastrarPix: false,
+              // tipoChavePix: '',
+              // chavePix: '',
+              pagamentoComSucesso: false
             });
           }, 3000);
         }, 2000);
@@ -53,10 +53,10 @@ class DadosBancarios extends React.Component {
               <input type="text" className="form-control" id="nome" name="nome" value={this.state.nome} onChange={this.handleChange} />
             </div>
             <div className="mb-3">
-              <label htmlFor="numeroConta" className="form-label">Número da Conta:</label>
-              <input type="text" className="form-control" id="numeroConta" name="numeroConta" value={this.state.numeroConta} onChange={this.handleChange} />
+              <label htmlFor="chavepix" className="form-label">Chave pix:</label>
+              <input type="text" className="form-control" id="chavepix" name="chavepix" value={this.state.chavepix} onChange={this.handleChange} />
             </div>
-            <div className="mb-3">
+            {/* <div className="mb-3">
               <label htmlFor="tipoConta" className="form-label">Tipo de Conta:</label>
               <select className="form-select" id="tipoConta" name="tipoConta" value={this.state.tipoConta} onChange={this.handleChange}>
                 <option value="">Selecione o tipo de conta</option>
@@ -88,12 +88,13 @@ class DadosBancarios extends React.Component {
               </div>
               </div>
             )}
-            <button type="submit" className="btn btn-primary">Cadastrar</button>
+            <button type="submit" className="btn btn-primary">Cadastrar</button> */}
+             <button type="submit" className="btn btn-primary">Pagar</button>
           </form>
-          {this.state.cadastradoComSucesso && (
+          {this.state.pagamentoComSucesso && (
           <div className="popup">
             <div className="popup-content">
-              <p>Cadastrado com sucesso!</p>
+              <p>Pagamento realizado com sucesso!</p>
             </div>
           </div>
         )}
