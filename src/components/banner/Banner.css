@@ -1,0 +1,27 @@
+
+  .banner {
+    width: 100vw;
+    height: 60vh;
+    text-align: left;
+    font-size: var(--font-size-3xl);
+    color: var(--branco);
+    font-family: var(--font-poppins);
+  }
+
+  @media (max-width:576px) {
+    .banner {
+      width: 90vw;
+      height: 50vh;
+      text-align: left;
+      font-size: var(--font-size-xs);
+      color: var(--branco);
+      font-family: var(--font-poppins);
+    }
+
+    #c-img img{
+      width: 150px;
+      height: 200px;
+      margin-top: 20vh;
+    }
+    
+  }

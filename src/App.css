@@ -1,1 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-nunito: Nunito;
+  --font-poppins: Poppins;
+  --font-sora: Sora;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-base: 16px;
+  --font-size-5xl: 24px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-37xl: 56px;
+  --font-size-7xl: 26px;
+  --font-size-35xl: 54px;
+  --font-size-3xl: 22px;
+  --font-size-45xl: 64px;
+
+  /* Colors */
+  --branco: #fff;
+  --color-gray-100: #131517;
+  --pretoazultexto: #08142e;
+  --pretoazul: #050c1a;
+  --azulcinza: #b2b8bf;
+  --color-whitesmoke-100: #f5f7fa;
+  --cinza-final: #f3f3f3;
+  --primary-color-blue: #0064ff;
+  --azulprincipal: #005dff;
+  --brancoazul: #fafaff;
+  --color-black: #000;
+  --color-royalblue: #1157d1;
+
+  /* Gaps */
+  --gap-5xl: 24px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+  --br-3xs: 10px;
+  --br-21xl: 40px;
+  --br-base: 16px;
+  --br-5xl: 24px;
+}
 
