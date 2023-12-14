@@ -1,5 +1,5 @@
 import Banner from '../banner/Banner.jsx'
-import MulherEspirrando from '../../assets/images/Imagem-mulher-espirrando-tela.jpeg'
+import MulherEspirrando from '../../assets/images/mulher-com-spray-e-pano.png'
 import Resultadosparacomunidade from '../resultadosparacomunidade/resultadosparacomunidade.jsx'
 import Valores from '../valores/Valores.jsx'
 import Cores from '../cores/Cores.jsx'
