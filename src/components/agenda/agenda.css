@@ -1,0 +1,857 @@
+.navbar-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fafaff;
+    box-shadow: 1px 1px 4px 1px rgba(5, 23, 61, 0.14);
+    width: 1440px;
+    height: 100px;
+}
+.incio {
+    position: relative;
+    line-height: 57.5px;
+    font-weight: 500;
+    display: inline-block;
+    width: 59px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.educacional {
+    position: relative;
+    line-height: 57.5px;
+    font-weight: 500;
+    display: inline-block;
+    width: 107px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.quem-somos {
+    position: relative;
+    line-height: 57.5px;
+    font-weight: 500;
+    display: inline-block;
+    width: 117px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.suporte {
+    position: relative;
+    line-height: 57.5px;
+    font-weight: 500;
+    display: inline-block;
+    width: 93px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.incio-parent {
+    width: 742px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+}
+.solaruser-circle-outline-icon {
+    position: relative;
+    width: 43px;
+    height: 43px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.ol-alexandre {
+    margin: 0;
+}
+.ol-alexandre-meu-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 22px;
+    font-weight: 500;
+}
+.vector-icon {
+    position: absolute;
+    height: 15.91%;
+    width: 11.01%;
+    top: 72.73%;
+    right: 0%;
+    bottom: 11.36%;
+    left: 88.99%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.ol-alexandre-meu-perfil-parent {
+    position: relative;
+    width: 109px;
+    height: 44px;
+}
+.solaruser-circle-outline-parent {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+.frame-parent {
+    position: absolute;
+    top: 24px;
+    left: 351px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.group-icon {
+    position: absolute;
+    height: 44.04%;
+    width: 10.42%;
+    top: 26.42%;
+    right: 80.9%;
+    bottom: 29.54%;
+    left: 8.68%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.navbar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 100px;
+    text-align: center;
+    font-size: 18px;
+    color: #050c1a;
+}
+.agenda2 {
+    margin-block-start: 0;
+    margin-block-end: 15px;
+}
+.blank-line {
+    margin-block-start: 0;
+    margin-block-end: 15px;
+    font-size: 56px;
+    color: #3fc978;
+}
+.agenda1 {
+    position: absolute;
+    top: 163px;
+    left: 125px;
+    letter-spacing: 0.1em;
+    line-height: 60px;
+    display: inline-block;
+    font-family: Poppins;
+    width: 928px;
+    height: 58px;
+    font-size: 41px;
+    color: #050c1a;
+}
+.aqui-voc-poder {
+    margin-block-start: 0;
+    margin-block-end: 6px;
+}
+.ol-alexandre-aqui-container {
+    position: absolute;
+    top: calc(50% - 647px);
+    left: 127px;
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    line-height: 43px;
+    font-weight: 500;
+    color: #050c1a;
+    display: inline-block;
+    width: 1146px;
+    height: 97px;
+}
+.selecione-seus-dias {
+    position: absolute;
+    top: calc(50% + 252px);
+    left: 132px;
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    line-height: 43px;
+    font-weight: 500;
+    color: #050c1a;
+    display: inline-block;
+    width: 605px;
+    height: 48px;
+}
+.calendrio-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: rgba(178, 184, 191, 0.1);
+    width: 771.04px;
+    height: 731px;
+}
+.calendrio1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 771.04px;
+    height: 731px;
+}
+.div {
+    position: absolute;
+    top: 120.11px;
+    left: 0px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 14.21px;
+    height: 23.25px;
+}
+.div1 {
+    position: absolute;
+    top: 240.22px;
+    left: 0px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 33.58px;
+    height: 23.25px;
+}
+.div2 {
+    position: absolute;
+    top: 360.33px;
+    left: 0px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 33.58px;
+    height: 23.25px;
+}
+.div3 {
+    position: absolute;
+    top: 480.45px;
+    left: 0px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 33.58px;
+    height: 23.25px;
+}
+.div4 {
+    position: absolute;
+    top: 600.56px;
+    left: 0px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 33.58px;
+    height: 23.25px;
+}
+.div5 {
+    position: absolute;
+    top: 120.11px;
+    left: 107.2px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 14.21px;
+    height: 23.25px;
+}
+.div6 {
+    position: absolute;
+    top: 240.22px;
+    left: 107.2px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 27.12px;
+    height: 23.25px;
+}
+.div7 {
+    position: absolute;
+    top: 360.33px;
+    left: 107.2px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 27.12px;
+    height: 23.25px;
+}
+.div8 {
+    position: absolute;
+    top: 480.45px;
+    left: 107.2px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 27.12px;
+    height: 23.25px;
+}
+.div9 {
+    position: absolute;
+    top: 120.11px;
+    left: 220.85px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 14.21px;
+    height: 23.25px;
+}
+.div10 {
+    position: absolute;
+    top: 240.22px;
+    left: 220.85px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 27.12px;
+    height: 23.25px;
+}
+.div11 {
+    position: absolute;
+    top: 360.33px;
+    left: 220.85px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 27.12px;
+    height: 23.25px;
+}
+.div12 {
+    position: absolute;
+    top: 480.45px;
+    left: 220.85px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 27.12px;
+    height: 23.25px;
+}
+.div13 {
+    position: absolute;
+    top: 120.11px;
+    left: 334.5px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 14.21px;
+    height: 23.25px;
+}
+.div14 {
+    position: absolute;
+    top: 240.22px;
+    left: 334.5px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 32.29px;
+    height: 23.25px;
+}
+.div15 {
+    position: absolute;
+    top: 360.33px;
+    left: 334.5px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 32.29px;
+    height: 23.25px;
+}
+.div16 {
+    position: absolute;
+    top: 480.45px;
+    left: 334.5px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 32.29px;
+    height: 23.25px;
+}
+.div17 {
+    position: absolute;
+    top: 120.11px;
+    left: 448.16px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 14.21px;
+    height: 23.25px;
+}
+.div18 {
+    position: absolute;
+    top: 240.22px;
+    left: 448.16px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 32.29px;
+    height: 23.25px;
+}
+.div19 {
+    position: absolute;
+    top: 360.33px;
+    left: 448.16px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 32.29px;
+    height: 23.25px;
+}
+.div20 {
+    position: absolute;
+    top: 480.45px;
+    left: 448.16px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 32.29px;
+    height: 23.25px;
+}
+.div21 {
+    position: absolute;
+    top: 0px;
+    left: 561.81px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 14.21px;
+    height: 23.25px;
+}
+.div22 {
+    position: absolute;
+    top: 120.11px;
+    left: 561.81px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 14.21px;
+    height: 23.25px;
+}
+.div23 {
+    position: absolute;
+    top: 240.22px;
+    left: 561.81px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 36.16px;
+    height: 23.25px;
+}
+.div24 {
+    position: absolute;
+    top: 360.33px;
+    left: 561.81px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 36.16px;
+    height: 23.25px;
+}
+.div25 {
+    position: absolute;
+    top: 480.45px;
+    left: 561.81px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 36.16px;
+    height: 23.25px;
+}
+.div26 {
+    position: absolute;
+    top: 0px;
+    left: 675.46px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 14.21px;
+    height: 23.25px;
+    cursor: pointer;
+}
+.div27 {
+    position: absolute;
+    top: 120.11px;
+    left: 675.46px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 14.21px;
+    height: 23.25px;
+}
+.div28 {
+    position: absolute;
+    top: 240.22px;
+    left: 675.46px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 28.41px;
+    height: 23.25px;
+}
+.div29 {
+    position: absolute;
+    top: 360.33px;
+    left: 675.46px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 28.41px;
+    height: 23.25px;
+}
+.div30 {
+    position: absolute;
+    top: 480.45px;
+    left: 675.46px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 28.41px;
+    height: 23.25px;
+}
+.dias {
+    position: absolute;
+    top: 77.49px;
+    left: 42.62px;
+    width: 703.88px;
+    height: 623.8px;
+}
+.dom {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 86.53px;
+    height: 23.25px;
+}
+.seg {
+    position: absolute;
+    top: 0px;
+    left: 112.36px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 54.24px;
+    height: 23.25px;
+}
+.ter {
+    position: absolute;
+    top: 0px;
+    left: 224.72px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 50.37px;
+    height: 23.25px;
+}
+.qua {
+    position: absolute;
+    top: 0px;
+    left: 337.09px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 54.24px;
+    height: 23.25px;
+}
+.qui {
+    position: absolute;
+    top: 0px;
+    left: 450.74px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 61.99px;
+    height: 23.25px;
+}
+.sex {
+    position: absolute;
+    top: 0px;
+    left: 563.1px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 46.49px;
+    height: 23.25px;
+}
+.sab {
+    position: absolute;
+    top: 0px;
+    left: 675.46px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    width: 47.79px;
+    height: 23.25px;
+}
+.dias-da-semana {
+    position: absolute;
+    top: 24.54px;
+    left: 23.25px;
+    width: 723.25px;
+    height: 23.25px;
+}
+.calendrio {
+    position: absolute;
+    top: 404px;
+    left: 132px;
+    width: 771.04px;
+    height: 731px;
+    color: #050c1a;
+}
+.dezembro-2023 {
+    position: absolute;
+    top: 1px;
+    left: 45px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    display: inline-block;
+    width: 219px;
+    height: 31px;
+}
+.div31 {
+    position: absolute;
+    top: 0px;
+    left: 275px;
+    letter-spacing: 0.05em;
+    font-weight: 800;
+    display: inline-block;
+    width: 12px;
+    height: 32px;
+}
+.div32 {
+    position: absolute;
+    top: 0px;
+    left: 14px;
+    letter-spacing: 0.05em;
+    font-weight: 800;
+    display: inline-block;
+    width: 14px;
+    height: 32px;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.dezembro-2023-parent {
+    position: absolute;
+    top: 361px;
+    left: 125px;
+    width: 287px;
+    height: 32px;
+    font-size: 22px;
+    color: #000;
+}
+.horrio-disponvel {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    display: inline-block;
+    width: 296px;
+    height: 31px;
+}
+.horrio-disponvel-wrapper {
+    position: absolute;
+    top: 1196px;
+    left: 132px;
+    width: 296px;
+    height: 31px;
+    font-size: 22px;
+    color: #000;
+}
+.distncia-wrapper {
+    position: absolute;
+    top: 1196px;
+    left: 607px;
+    width: 296px;
+    height: 31px;
+    font-size: 22px;
+    color: #000;
+}
+.label {
+    position: relative;
+    line-height: 28px;
+    font-weight: 500;
+}
+.checks {
+    position: absolute;
+    top: 1px;
+    left: 37px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #fafaff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+}
+.checks-parent {
+    position: absolute;
+    top: 1255px;
+    left: 132px;
+    width: 226px;
+    height: 30px;
+}
+.checks-group {
+    position: absolute;
+    top: 1255px;
+    left: 607px;
+    width: 126px;
+    height: 30px;
+}
+.checks-container {
+    position: absolute;
+    top: 1305px;
+    left: 132px;
+    width: 212px;
+    height: 30px;
+}
+.group-div {
+    position: absolute;
+    top: 1305px;
+    left: 607px;
+    width: 129px;
+    height: 30px;
+}
+.checks4 {
+    position: absolute;
+    top: 2px;
+    left: 37px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.checks-parent1 {
+    position: absolute;
+    top: 1355px;
+    left: 132px;
+    width: 212px;
+    height: 30px;
+}
+.checks-parent2 {
+    position: absolute;
+    top: 1355px;
+    left: 607px;
+    width: 130px;
+    height: 30px;
+}
+.checks-parent3 {
+    position: absolute;
+    top: 1405px;
+    left: 132px;
+    width: 274px;
+    height: 30px;
+}
+.start-adornment {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+}
+.insira-a-distncia {
+    flex: 1;
+    position: relative;
+    line-height: 20px;
+}
+.end-adornment {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    display: none;
+}
+.input-default {
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1.5px solid #b2b8bf;
+    box-sizing: border-box;
+    width: 234px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 9px 16px;
+    gap: 8px;
+}
+.input-default-wrapper {
+    position: absolute;
+    top: 1398px;
+    left: 607px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 16px;
+    color: #b2b8bf;
+}
+.salvar {
+    position: relative;
+    letter-spacing: 0.05em;
+    font-weight: 800;
+}
+.salvar-wrapper {
+    position: absolute;
+    top: calc(50% + 671px);
+    left: calc(50% + 378px);
+    border-radius: 6px;
+    background: linear-gradient(180deg, #006bff, #0046bf);
+    width: 183px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+}
+.cancelar-alteraes-wrapper {
+    position: absolute;
+    top: calc(50% + 671px);
+    left: calc(50% - 593px);
+    border-radius: 6px;
+    background: linear-gradient(180deg, #006bff, #0046bf);
+    width: 308px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+}
+.agenda-child {
+    position: absolute;
+    top: 466.96px;
+    left: 716.5px;
+    width: 52px;
+    height: 52px;
+}
+.agenda {
+    position: relative;
+    background-color: #fafaff;
+    width: 100%;
+    height: 1736px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #08142e;
+    font-family: Inter;
+}

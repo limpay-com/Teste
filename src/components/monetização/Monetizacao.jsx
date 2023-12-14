@@ -1,4 +1,4 @@
-import Style from './Monetizacao.css'
+import './Monetizacao.css'
 
 function Monetizacao() {
     return(

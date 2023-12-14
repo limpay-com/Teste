@@ -1,0 +1,262 @@
+.fazendo-a-limpa-cetificado-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.05);
+    width: 1440px;
+    height: 100px;
+}
+.navbar-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fafaff;
+    box-shadow: 1px 1px 4px 1px rgba(5, 23, 61, 0.14);
+    width: 1440px;
+    height: 100px;
+}
+.incio {
+    position: relative;
+    line-height: 57.5px;
+    font-weight: 500;
+    display: inline-block;
+    width: 59px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.educacional {
+    position: relative;
+    line-height: 57.5px;
+    font-weight: 500;
+    color: #005dff;
+    display: inline-block;
+    width: 107px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.quem-somos {
+    position: relative;
+    line-height: 57.5px;
+    font-weight: 500;
+    display: inline-block;
+    width: 117px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.suporte {
+    position: relative;
+    line-height: 57.5px;
+    font-weight: 500;
+    display: inline-block;
+    width: 93px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.incio-parent {
+    width: 742px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+}
+.solaruser-circle-outline-icon {
+    position: relative;
+    width: 43px;
+    height: 43px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.ol-alexandre {
+    margin: 0;
+}
+.ol-alexandre-meu-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 22px;
+    font-weight: 500;
+}
+.vector-icon {
+    position: absolute;
+    height: 15.91%;
+    width: 11.01%;
+    top: 72.73%;
+    right: 0%;
+    bottom: 11.36%;
+    left: 88.99%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.ol-alexandre-meu-perfil-parent {
+    position: relative;
+    width: 109px;
+    height: 44px;
+}
+.solaruser-circle-outline-parent {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+.frame-parent {
+    position: absolute;
+    top: 24px;
+    left: 351px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.group-icon {
+    position: absolute;
+    height: 50%;
+    width: 10.42%;
+    top: 30%;
+    right: 80.9%;
+    bottom: 20%;
+    left: 8.68%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.navbar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 100px;
+    font-size: 18px;
+    color: #050c1a;
+}
+.parabens-por-concluir {
+    position: absolute;
+    top: 120px;
+    left: calc(50% - 595px);
+    font-size: 35px;
+    display: inline-block;
+    font-family: Poppins;
+    color: #000;
+    text-align: left;
+    width: 1155px;
+}
+.abaixo-segue-o {
+    position: absolute;
+    top: 173px;
+    left: calc(50% - 595px);
+    font-size: 30px;
+    font-family: Poppins;
+    color: #000;
+    text-align: left;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #573d3d;
+    width: 1156px;
+    height: 43.16px;
+}
+.group-item {
+    position: absolute;
+    top: 802.84px;
+    left: 0px;
+    background-color: #573d3d;
+    width: 1156px;
+    height: 43.16px;
+}
+.certificado-de-participao-fo {
+    position: absolute;
+    top: 43.16px;
+    left: 42.07px;
+    width: 1070.9px;
+    height: 759.67px;
+    object-fit: cover;
+}
+.group-inner {
+    position: absolute;
+    top: 43.16px;
+    left: 0px;
+    background-color: #573d3d;
+    width: 51.63px;
+    height: 759.67px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 43.16px;
+    left: 1103.41px;
+    background-color: #573d3d;
+    width: 52.59px;
+    height: 760.63px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 246px;
+    left: 125px;
+    width: 1156px;
+    height: 846px;
+}
+.download {
+    position: absolute;
+    top: 1271px;
+    left: calc(50% + 311px);
+    font-size: 40px;
+    font-family: Poppins;
+    text-align: left;
+}
+.adicionar-selo-ao {
+    position: relative;
+    letter-spacing: 0.05em;
+    font-weight: 800;
+}
+.adicionar-selo-ao-perifil-wrapper {
+    position: absolute;
+    top: calc(50% + 497px);
+    left: calc(50% - 595px);
+    border-radius: 6px;
+    background: linear-gradient(180deg, #006bff, #0046bf);
+    width: 360px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.download-wrapper {
+    position: absolute;
+    top: calc(50% + 497px);
+    left: calc(50% + 397px);
+    border-radius: 6px;
+    background: linear-gradient(180deg, #006bff, #0046bf);
+    width: 217px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.fazendo-a-limpa-cetificado {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 1344px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    font-family: Inter;
+}
+

@@ -1,0 +1,21 @@
+.btn-plataforma {
+    color: var(--primary-color-blue);
+    background-color: #fff;
+    width: fit-content;
+    border-radius: 15px;
+}
+
+.c-opcoes {
+    height: 300px;
+    width: 60vw;
+    border-radius: 25px;
+    border: 1px solid #000;
+    background: linear-gradient(95deg, #005DFF 0.75%, #17397C 98.93%);
+}
+
+.i-opcoes{
+    fill: var(--primary-color-blue, #0064FF);
+    font-size: 20px;
+    background-color: #fff;
+    padding: 10px;
+}
