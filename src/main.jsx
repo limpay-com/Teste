@@ -8,6 +8,7 @@ import Login from './components/login/Login.jsx';
 import Inicio from './components/inicio/Inicio.jsx';
 import QuemSomos from './components/quemsomos/QuemSomos.jsx';
 import Suporte from './components/suporte/Suporte.jsx';
+import Contrato from './components/contrato/Contrato.jsx';
 
 const router = createBrowserRouter([
   {
@@ -33,7 +34,11 @@ const router = createBrowserRouter([
       {
         path: '/suporte',
         element:<Suporte></Suporte>
-      }
+      },
+      {
+        path: '/contrato',
+        element:<Contrato></Contrato>
+      },
     ],
   },
 ]);
