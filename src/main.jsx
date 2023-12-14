@@ -9,6 +9,7 @@ import Inicio from './components/inicio/Inicio.jsx';
 import QuemSomos from './components/quemsomos/QuemSomos.jsx';
 import Suporte from './components/suporte/Suporte.jsx';
 import Contrato from './components/contrato/Contrato.jsx';
+import DadosBancarios from './components/formularioBancario/DadosBancarios.jsx';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: '/contrato',
         element:<Contrato></Contrato>
+      },
+      {
+        path: '/dados',
+        element:<DadosBancarios></DadosBancarios>
       },
     ],
   },
