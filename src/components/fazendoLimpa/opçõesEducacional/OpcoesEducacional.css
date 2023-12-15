@@ -13,9 +13,15 @@
     background: linear-gradient(95deg, #005DFF 0.75%, #17397C 98.93%);
 }
 
-.i-opcoes{
-    fill: var(--primary-color-blue, #0064FF);
-    font-size: 20px;
-    background-color: #fff;
-    padding: 10px;
+.i-opcoes {
+    width: 60px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    font-size: 30px;
+    color: #005DFF;
+    border: none;
+    align-self: self-end;
+    margin: 1em;
 }
