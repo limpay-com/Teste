@@ -8,6 +8,8 @@ import Login from './components/login/Login.jsx';
 import Inicio from './components/inicio/Inicio.jsx';
 import QuemSomos from './components/quemsomos/QuemSomos.jsx';
 import Suporte from './components/suporte/Suporte.jsx';
+import Educacional from './components/fazendoLimpa/educacional.jsx';
+import OpcoesEducacional from './components/fazendoLimpa/opçõesEducacional/OpcoesEducacional.jsx';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +35,12 @@ const router = createBrowserRouter([
       {
         path: '/suporte',
         element:<Suporte></Suporte>
+      },{
+        path: '/educacional',
+        element: <Educacional></Educacional>
+      },{
+        path: '/educacional/opcoes',
+        element: <OpcoesEducacional></OpcoesEducacional>
       }
     ],
   },

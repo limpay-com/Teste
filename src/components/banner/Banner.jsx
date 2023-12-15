@@ -7,7 +7,7 @@ const Banner = ({ imagesrc, title, p }) => {
   return (
     <div className=" bg-primary banner d-flex w-100">
       <div className="d-flex flex-column justify-content-center align-items-center w-50" id="c-titulo">
-        <div className="m-1"><Titulo content={title}></Titulo></div>
+        <div className="m-3"><Titulo content={title}></Titulo></div>
         <div className="m-1 w-50">
           {p}
         </div>

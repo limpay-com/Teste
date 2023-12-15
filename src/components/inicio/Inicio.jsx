@@ -16,7 +16,7 @@ import Book from "../../assets/images/inicio/book-open.svg"
 import { Link } from 'react-router-dom';
 import UpCycle from '../../assets/images/inicio/parceiros/upcycle.svg'
 import Proa from '../../assets/images/inicio/parceiros/logo proa 1.svg'
-import Lacoos from '../../assets/images/inicio/parceiros/lacoos 2.svg'
+import Lacoos from '../../assets/images/inicio/parceiros/logoLaçoos.jpeg'
 import mulherLimpando from '../../assets/images/inicio/mulher-limpando-a-tela.png'
 
 const Inicio = () => {
@@ -167,7 +167,7 @@ const Inicio = () => {
         <h2 className='m-4 fw-bold' id='titulo-parceiros'>Parceiros que confiam em nós</h2>
         <div className='d-flex justify-content-center gap-4'>
           <div className='m-4'>
-            <img className='w-100' src={Lacoos} alt="" />
+            <img className='imagem-lacoos' src={Lacoos} alt="" />
           </div>
           <div className='m-4'>
             <img className='w-100' src={Proa} alt="" />
