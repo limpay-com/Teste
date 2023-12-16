@@ -10,6 +10,10 @@ import QuemSomos from './components/quemsomos/QuemSomos.jsx';
 import Suporte from './components/suporte/Suporte.jsx';
 import Educacional from './components/fazendoLimpa/educacional.jsx';
 import OpcoesEducacional from './components/fazendoLimpa/opçõesEducacional/OpcoesEducacional.jsx';
+import CursosProfissionalizantes from './components/fazendoLimpa/cursosProfissionalizantes/cursosProfissionalizantes.jsx';
+import FazendoLimpa from './components/fazendoLimpa/fazendoALimpa/FazendoALimpa.jsx';
+import Certificado from './components/fazendoLimpa/certificado/Certificado.jsx';
+import Pagamento from './components/fazendoLimpa/pagamento/Pagamento.jsx';
 
 const router = createBrowserRouter([
   {
@@ -41,6 +45,18 @@ const router = createBrowserRouter([
       },{
         path: '/educacional/opcoes',
         element: <OpcoesEducacional></OpcoesEducacional>
+      },{
+        path: '/cursosprofissionalizantes',
+        element: <CursosProfissionalizantes></CursosProfissionalizantes>
+      },{
+        path: '/fazendoalimpa' ,
+        element: <FazendoLimpa></FazendoLimpa>
+      },{
+        path: '/fazendoalimpa/certificado',
+        element: <Certificado></Certificado>
+      },{
+        path: '/pagamento',
+        element: <Pagamento></Pagamento>
       }
     ],
   },

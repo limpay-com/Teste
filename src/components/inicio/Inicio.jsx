@@ -8,7 +8,6 @@ import AreaInterna from '../../assets/images/cardImagem/interna.png';
 import aExterna from '../../assets/images/cardImagem/externa.png';
 import Educacional from '../../assets/images/cardImagem/educacional.png';
 import Banner from '../banner/Banner'
-import MulherEspirrando from '../../assets/images/Imagem-mulher-espirrando-tela.jpeg';
 import FiltroRápido from '../filtroRápido/FiltroRápido';
 import './Inicio.css'
 import Home from "../../assets/images/inicio/home.svg"
