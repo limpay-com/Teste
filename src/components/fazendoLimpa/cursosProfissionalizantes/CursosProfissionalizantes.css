@@ -1,3 +1,11 @@
 .largura-cursosprofissionalizantes{
-    width: 30vw;
+    width: 400px;
+    box-sizing: content-box;
+}
+
+@media (max-width:578px) {
+    .largura-cursosprofissionalizantes{
+        width: 320px;
+        box-sizing: content-box;
+    }
 }
