@@ -3,6 +3,21 @@
     box-sizing: content-box;
 }
 
+.altura-cursosprofissionalizantes{
+    height: 400px;
+}
+
+.largura-embreve{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 220px;
+    height: 200px;
+    width: 400px;
+    box-sizing: content-box;
+    display: inline;
+}
+
 @media (max-width:578px) {
     .largura-cursosprofissionalizantes{
         width: 320px;

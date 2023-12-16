@@ -1,5 +1,6 @@
 import Player1 from '../../../assets/images/cursosProfissionalizantes/Player-1.png'
 import Player2 from '../../../assets/images/cursosProfissionalizantes/Player-2.png'
+import BannerConcluido from '../../../assets/images/fazendoalimpa/EmBreve(1).png'
 import "./FazendoALimpa.css"
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -93,7 +94,7 @@ function FazendoLimpa() {
 
             <div className='d-flex justify-content-center align-items-center gap-4 flex-wrap c-fazendolimpa'>
                 <div className=' largura-cursosprofissionalizantes'>
-                    <Player poster={Player2} src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4">
+                    <Player poster={BannerConcluido} src="#">
                         <BigPlayButton position="center" />
 
                         <ControlBar>
@@ -190,6 +191,7 @@ function FazendoLimpa() {
 
             <div className='d-flex justify-content-between'>
                 <button className=" btn btn-primary m-4" ><Link to="/educacional/opcoes" className="p-branco text-decoration-none"> voltar</Link></button>
+                <button className=" btn btn-primary m-4" ><Link to="/fazendoalimpa/certificado" className="p-branco text-decoration-none"> Adquirir certificado</Link></button>
 
             </div>
 
