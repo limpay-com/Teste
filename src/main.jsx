@@ -14,6 +14,8 @@ import CursosProfissionalizantes from './components/fazendoLimpa/cursosProfissio
 import FazendoLimpa from './components/fazendoLimpa/fazendoALimpa/FazendoALimpa.jsx';
 import Certificado from './components/fazendoLimpa/certificado/Certificado.jsx';
 import Pagamento from './components/fazendoLimpa/pagamento/Pagamento.jsx';
+import Contrato from './components/Contrato/Contrato.jsx';
+import Formulario from './components/Formulario/Formulario.jsx';
 
 const router = createBrowserRouter([
   {
@@ -57,6 +59,12 @@ const router = createBrowserRouter([
       },{
         path: '/pagamento',
         element: <Pagamento></Pagamento>
+      },{
+        path: '/contrato',
+        element: <Contrato></Contrato>
+      },{
+        path: '/formulario',
+        element:<Formulario></Formulario>
       }
     ],
   },
