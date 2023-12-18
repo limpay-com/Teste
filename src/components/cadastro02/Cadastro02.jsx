@@ -92,6 +92,7 @@
 import React from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import './Cadastro02.css';
+import { Link } from 'react-router-dom';
 
 function Cadastro02() {
     return (
@@ -178,7 +179,7 @@ function Cadastro02() {
                             <Form.Control type="text" placeholder="Digite a chave Pix" />
                         </Form.Group>
                         <Button variant="primary" type="submit">
-                                Próxima etapa
+                            <Link  to="/inicio" className='p-branco'>Próxima etapa</Link>
                             </Button>
                     </Col>
                 </Row>

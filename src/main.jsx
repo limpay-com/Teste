@@ -69,6 +69,9 @@ const router = createBrowserRouter([
       },{
         path: '/cadastro02',
         element: <Cadastro02></Cadastro02>
+      },{
+        path: '/inicio' ,
+        element: ini
       }
     ],
   },

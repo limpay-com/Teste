@@ -18,7 +18,7 @@ import Proa from '../../assets/images/inicio/parceiros/logo proa 1.svg'
 import Lacoos from '../../assets/images/inicio/parceiros/logoLaçoos.jpeg'
 import mulherLimpando from '../../assets/images/inicio/mulher-limpando-a-tela.png'
 
-const Inicio = () => {
+const Inicio2 = () => {
 
   function PopUpNone(){
     var popup = document.getElementById("popup")
@@ -192,4 +192,4 @@ const Inicio = () => {
   );
 };
 
-export default Inicio;
+export default Inicio2;
