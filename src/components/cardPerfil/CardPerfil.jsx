@@ -33,12 +33,13 @@ function CardPerfil({
           <p class="card-text-localizacao">{localização}</p>
           <p class="card-text-preco">R${minDiaria} - {maxDiaria} dia  <span><img className='mx-2 mb-1' src={Star} />{avaliacao}</span></p>
           <div className='d-flex align-items-start align-content-start gap-1 flex-wrap w-100 mt-2'>
-            <a href="#" class="d-inline bg-light customizado-botao">{habilidade1}</a>
-            <a href="#" class="d-inline bg-light customizado-botao">{habilidade2}</a>
-            <a href="#" class="d-inline bg-light customizado-botao">{habilidade3}</a>
-            <a href="#" class="d-inline bg-light customizado-botao">{habilidade4}</a>
-            <a href="#" class="d-inline bg-light customizado-botao">{habilidade5}</a>
-            <a href="#" class="d-inline bg-light customizado-botao">{habilidade6}</a>
+            <a href="#" class="d-inline bg-light customizado-botao"><span className="item-name"> {habilidade1} </span></a>
+            <a href="#" class="d-inline bg-light customizado-botao"><span className="item-name"> {habilidade2} </span></a>
+            <a href="#" class="d-inline bg-light customizado-botao"><span className="item-name"> {habilidade3} </span></a>
+            <a href="#" class="d-inline bg-light customizado-botao"><span className="item-name"> {habilidade4} </span></a>
+            <a href="#" class="d-inline bg-light customizado-botao"><span className="item-name"> {habilidade5} </span></a>
+            <a href="#" class="d-inline bg-light customizado-botao"><span className="item-name"> {habilidade6} </span></a>
+
           </div>
         </div>
       </div>
