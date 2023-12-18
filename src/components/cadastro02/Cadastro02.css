@@ -1,0 +1,48 @@
+/* Cadastro02.css */
+
+/* Estilos para a div principal cadastro-02 */
+.cadastro-02 {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para o título "Continue seu cadastro" */
+  .continue-seu-cadastro p {
+    font-family: Poppins;
+    font-weight:normal;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para a mensagem de boas-vindas */
+  .ol {
+    font-weight:lighter;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #050c1a;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para os rótulos dos campos de formulário */
+  span {
+    display: block;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  /* Estilos para os campos de formulário */
+  Form.Label {
+    font-weight: bold;
+  }
+  
+  /* Estilos para o botão "Próxima etapa" */
+  Button[type="submit"] {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
