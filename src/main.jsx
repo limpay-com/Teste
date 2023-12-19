@@ -19,7 +19,6 @@ import Formulario from './components/Formulario/Formulario.jsx';
 import Cadastro02 from './components/cadastro02/Cadastro02.jsx';
 import Inicio2 from './components/inicio2/Inicio2.jsx';
 import Procuradeprofissionais from './components/procuradeprofissionais/Procuradeprofissionais.jsx'
-import Contrato from './components/contrato/Contrato.jsx';
 import DadosBancarios from './components/formularioBancario/DadosBancarios.jsx';
 
 
@@ -80,7 +79,6 @@ const router = createBrowserRouter([
       },{
         path: '/procuradeprofissionais',
         element: <Procuradeprofissionais></Procuradeprofissionais>
-      }
       },
       {
         path: '/contrato',
