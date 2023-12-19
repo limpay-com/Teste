@@ -1,0 +1,46 @@
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;800&display=swap');
+
+  .texto-principal {
+    font-family: Nunito;
+    font-style: normal;
+    color: #fefdfd;
+  }
+
+  .titulo {
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.72px;
+  }
+
+  .links {
+    color: #fefdfd;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .logotipo {
+    height: 50px;
+    width: 150px;
+  }
+
+  .link-footer {
+    text-decoration: none;
+  }
+
+  .link-footer:hover {
+    text-decoration: underline;
+  }
+
+  .cor-fundo {
+    background: linear-gradient(#005DFF, #0041B1);
+  }
+
+  .branco {
+    color: white;
+  }
+
+  .container-linha {
+    width: 100%;
+    border-bottom: 2px solid #fefdfd;
+  }
