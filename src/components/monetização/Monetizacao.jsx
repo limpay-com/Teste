@@ -1,9 +1,9 @@
-import Style from './Monetizacao.css'
+import './Monetizacao.css'
 
 function Monetizacao() {
     return(
         <>
-        <div className="container d-flex flex-column justify-content-center align-items-center" id="c-resultados">
+        <div className="container d-flex flex-column justify-content-center align-items-center rounded" id="c-resultados">
             <div>
             <h2 className="m-2 my-4" style={{color:'#005dff'}}>Monetização</h2>
                 <div className="d-inline-block p-2 d-flex">

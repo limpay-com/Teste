@@ -2,10 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap");
+
 body {
   margin: 0;
   line-height: normal;
 }
+
 :root {
   /* fonts */
   --font-inter: Inter;
@@ -53,4 +55,3 @@ body {
   --br-base: 16px;
   --br-5xl: 24px;
 }
-

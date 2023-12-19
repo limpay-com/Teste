@@ -1,0 +1,28 @@
+.btn-filtro{
+    background-color:var(--cinza-final) ;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    display: inline;
+
+    }
+
+.aula-checkbox{
+    width: 100px;
+    margin: 5px;
+}
+
+
+.verde{
+    color:#3FC978 ;
+}
+
+.c-fazendolimpa{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+

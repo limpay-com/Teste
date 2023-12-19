@@ -1,6 +1,7 @@
 import Titulo from "../titulo/Titulo";
 import './FiltroRápido.css'
 import { MdFilterList } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 
 
@@ -31,9 +32,9 @@ function showCheckboxes2() {
 function filtroRápido() {
     return (
         <div className=" p-2 c-pesquisarapida">
-            <h2 className="pesquisa-rapida">Pesquisa rápida</h2>
-            <div className="d-flex justify-content-start gap-">
-                <div className="select mx-2 mx-lg-4">
+            <h2 className="pesquisa-rapida m-4">Pesquisa rápida</h2>
+            <div className="d-flex justify-content-start w-100">
+                <div className="select mx-lg-4" id="c-form-tiposLimpeza">
                     <form id="Tiposlimpeza">
                         <div className="multiselect ">
                             <div className="selectBox" onClick={showCheckboxes}>
@@ -53,7 +54,7 @@ function filtroRápido() {
                         </div>
                     </form>
                 </div>
-                <div className="select mx-2 mx-lg-4">
+                <div className="select mx-lg-4" id="c-form-adicionais">
                     <form id="Adicionais">
                         <div className="multiselect ">
                             <div className="selectBox adicionais" onClick={showCheckboxes2}>
@@ -80,7 +81,7 @@ function filtroRápido() {
             </div>
             <div className="d-flex mt-4 justify-content-end">
                 <span id="outrosfiltros" className="link-secondary my-4 mx-2"><MdFilterList></MdFilterList> Outros filtros</span>
-                <button className="btn btn-primary my-4 mx-4">Buscar opções</button>
+                <button className="btn btn-primary my-4 mx-4"><Link className="p-branco" to="/procuradeprofissionais">Buscar opções</Link></button>
 
             </div>
         </div>

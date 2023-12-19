@@ -7,9 +7,6 @@
 }
 
 
-.pesquisa-rapida{
-    margin: 1em;
-}
 
 .multiselect {
     width: 200px;
@@ -17,7 +14,7 @@
   
   .selectBox {
     position: relative;
-    width: 280px;
+    width: 200px;
   }
 
   .adicionais{
@@ -74,6 +71,24 @@
   @media (max-width:578px) {
     .selectBox {
       position: relative;
+      width: 100px;
+
+    }
+
+    #checkboxes2 {
+      display: none;
+      border: 1px #ffffff solid;
+    }
+      
+    #c-form-adicionais{
+      width: 40vw;
+    }
+
+    #c-form-tiposLimpeza{
+      width: 40vw;
+    }
+
+    #checkboxes {
       width: 150px;
     }
   }

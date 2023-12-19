@@ -3,7 +3,7 @@ import BaldeAzulimg from "./Balde-azulimg"
 import BaldeBrancoimg from "./Balde-brancoimg"
 import BaldePretoimg from "./Balde-pretoimg"
 import BaldeCinzaimg from "./Balde-cinzaimg"
-import Styles from './Cores.css'
+import './Cores.css'
 
 
 function Cores() {

@@ -13,3 +13,16 @@
     background: linear-gradient(180deg, #17397C 0%, #0B111F 100%);
 }
 
+#titulo-parceiros{
+    line-height: 60px;
+    border-bottom: 2px solid #005DFF;
+}
+
+.imagem-lacoos{
+    height: 80px;
+}
+
+.none{
+    display: none;
+}
+
