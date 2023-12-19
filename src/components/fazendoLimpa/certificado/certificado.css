@@ -1,0 +1,51 @@
+.certificado{
+    height: 500px;
+}
+
+.nome-certificado{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    position: relative;
+    top: 270px;
+    left: 140px;
+}
+
+.btn-voltar{
+    height: 40px;
+}
+
+@media (max-width:578px) {
+    .certificado{
+        height: 200px;
+        width: 300px;
+    }
+
+    .nome-certificado{
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-size: x-small;
+        position: relative;
+        top: 105px;
+        left: 70px;
+    }
+}
+
+@media print {
+    #pagina-certificado *{
+      visibility: hidden;
+    }
+
+    #c-certificado, #c-certificado * {
+      visibility: visible;
+    }
+    #c-certificado {
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+
+    .navbar{
+        visibility: hidden;
+    }
+  }
+

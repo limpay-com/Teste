@@ -8,20 +8,57 @@
     font-family: var(--font-poppins);
   }
 
+  #c-img{
+    width: 50vw;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    float: inline-end;
+  }
+
+
+
+  @media (max-width:1200px) {
+    #c-img{
+      height: 60vh;
+      width: 40vw;
+    }
+  }
+
+  @media (max-width:720px) {
+    #c-img{
+      margin-top:10vh ;
+      height: 50vh;
+      width: 25vw;
+    }
+  }
+
+
   @media (max-width:576px) {
     .banner {
       width: 90vw;
       height: 50vh;
       text-align: left;
-      font-size: var(--font-size-xs);
+      font-size: var(--font-size-s);
       color: var(--branco);
       font-family: var(--font-poppins);
     }
 
-    #c-img img{
-      width: 150px;
-      height: 200px;
+    #c-img{
+      width: 50vw;
+      height: 30vh;
       margin-top: 20vh;
+    }
+
+    #c-img img{
+      width: 200px;
+    }
+
+
+    #c-titulo{
+      width: 40vw;
     }
     
   }

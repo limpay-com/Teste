@@ -35,14 +35,19 @@ function Menu() {
           >
             <div className="d-flex justify-content-center">
 
-                <a
+
+                <div > 
+                <Link
+                 to="/cadastro"
                 className="d-block d-lg-none text-decoration-none  "
-                href="#"
+                aria-current="page"
+                
               >
-                <div > <img src={PerfilMenu} alt="" /> olá, faça seu login
+                <img src={PerfilMenu} alt="" />  olá, faça seu login
                   ou cadastre-se <IoIosArrowDown/>
+                  </Link> 
                 </div>
-              </a>
+                
               
             </div>
             <div className="d-none d-lg-block"></div>
@@ -108,9 +113,9 @@ function Menu() {
                 </ul>
               </li>
               <li className="nav-item Limpay-teste mx-3">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/Educacional">
                   Educacional
-                </a>
+                </Link>
               </li>
               <li className="nav-item Limpay-teste mx-3">
                 <Link className="nav-link" to="/QuemSomos">
@@ -131,13 +136,13 @@ function Menu() {
             </ul>
           </div>
 
-          <a
+          <Link
             className="d-none d-lg-block text-decoration-none  "
-            href="#"
+            to="/cadastro"
           >
             <div className="d-none d-lg-block"> <img src={PerfilMenu} alt="" /> olá, faça seu login
 ou cadastre-se <IoIosArrowDown/></div>
-          </a>
+          </Link>
         </div>
       </nav>
     </>

@@ -1,4 +1,4 @@
-import Style from './TimeLimpayPerfil.css'
+import './TimeLimpayPerfil.css'
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
