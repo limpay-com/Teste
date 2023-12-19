@@ -3,7 +3,7 @@
 O desenvolvimento de um design "clean", bonito e também objetivo.
 
 ## As tecnologias utilizadas no Front-End foram:
-###React: Utilizado para a criação de componentes na produção de um website dinâmico, que reutiliza trechos de códigos, fazendo o ser carregado mais rápido;
+React: Utilizado para a criação de componentes na produção de um website dinâmico, que reutiliza trechos de códigos, fazendo o ser carregado mais rápido;
 
 HTML: Responsável pela demarcação de código, foi utilizado atrelado ao React;
 
