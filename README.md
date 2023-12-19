@@ -1,8 +1,12 @@
-# React + Vite
+# A jornada pelo Front-End começa pelo seu objetivo principal:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O desenvolvimento de um design "clean", bonito e também objetivo.
 
-Currently, two official plugins are available:
+## As tecnologias utilizadas no Front-End foram:
+React: Utilizado para a criação de componentes na produção de um website dinâmico, que reutiliza trechos de códigos, fazendo o ser carregado mais rápido;
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+HTML: Responsável pela demarcação de código, foi utilizado atrelado ao React;
+
+CSS: Responsável pela estilização de cores e tamnhhos de elementos;
+
+Bootstrap: Framework utilizado para a estilização e padronização do conteúdo do site;
