@@ -2,14 +2,9 @@ import React from 'react';
 import Carrossel from '../carrossel/Carrossel';
 import CardGrid from '../cardGrid/CardGrid';
 import { IoIosArrowForward } from "react-icons/io";
-import Titulo from '../titulo/Titulo';
-import CardImagem from '../cardImagem/CardImagem';
-import AreaInterna from '../../assets/images/cardImagem/interna.png';
-import aExterna from '../../assets/images/cardImagem/externa.png';
-import Educacional from '../../assets/images/cardImagem/educacional.png';
 import Banner from '../banner/Banner'
 import FiltroRápido from '../filtroRápido/FiltroRápido';
-import './Inicio.css'
+import './Inicio2.css'
 import Home from "../../assets/images/inicio/home.svg"
 import Book from "../../assets/images/inicio/book-open.svg"
 import { Link } from 'react-router-dom';
@@ -18,7 +13,7 @@ import Proa from '../../assets/images/inicio/parceiros/logo proa 1.svg'
 import Lacoos from '../../assets/images/inicio/parceiros/logoLaçoos.jpeg'
 import mulherLimpando from '../../assets/images/inicio/mulher-limpando-a-tela.png'
 
-const Inicio = () => {
+const Inicio2 = () => {
 
   function PopUpNone(){
     var popup = document.getElementById("popup")
@@ -29,10 +24,6 @@ const Inicio = () => {
   return (
 
     <div className='fundo-inicial'>
-      <div id='popup' class="alert alert-warning alert-dismissible fade show" role="alert">
-        <Link to="/cadastro02" onClick={PopUpNone}><strong> Cadastre-se</strong> para ter uma melhor experiência na Limpay</Link>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-      </div>
       <Banner imagesrc={mulherLimpando} title={"Você em boas mãos!"} p={"Serviços especializados de limpeza para sua casa ou empresa"} />
       <div className="container ">
         {/* <div className="row">
@@ -192,4 +183,4 @@ const Inicio = () => {
   );
 };
 
-export default Inicio;
+export default Inicio2;

@@ -17,6 +17,7 @@ import Pagamento from './components/fazendoLimpa/pagamento/Pagamento.jsx';
 import Contrato from './components/Contrato/Contrato.jsx';
 import Formulario from './components/Formulario/Formulario.jsx';
 import Cadastro02 from './components/cadastro02/Cadastro02.jsx';
+import Inicio2 from './components/inicio2/Inicio2.jsx';
 
 const router = createBrowserRouter([
   {
@@ -69,6 +70,9 @@ const router = createBrowserRouter([
       },{
         path: '/cadastro02',
         element: <Cadastro02></Cadastro02>
+      },{
+        path: '/inicio' ,
+        element: <Inicio2 />
       }
     ],
   },
