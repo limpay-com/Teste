@@ -18,6 +18,7 @@ import Contrato from './components/Contrato/Contrato.jsx';
 import Formulario from './components/Formulario/Formulario.jsx';
 import Cadastro02 from './components/cadastro02/Cadastro02.jsx';
 import Inicio2 from './components/inicio2/Inicio2.jsx';
+import Procuradeprofissionais from './components/procuradeprofissionais/Procuradeprofissionais.jsx'
 
 const router = createBrowserRouter([
   {
@@ -73,6 +74,9 @@ const router = createBrowserRouter([
       },{
         path: '/inicio' ,
         element: <Inicio2 />
+      },{
+        path: '/procuradeprofissionais',
+        element: <Procuradeprofissionais></Procuradeprofissionais>
       }
     ],
   },
