@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import CardPerfil from '../cardPerfil/CardPerfil'
 import HomemLimpeza from '../../assets/images/procuradeprofissionais/homem-segurando-produtos-de-limpeza.png'
 import React, { useState } from 'react';
+import mulherLimpando from '../../assets/images/inicio/mulher-limpando-a-tela.png'
 // import SearchBar from './barrapesquisa/SearchBar';
 // import SearchResults from './barrapesquisa/SearchResults';
 
@@ -107,7 +108,7 @@ function filtrar() {
 
 return (
     <>
-        <Banner title="Encontre o profissional ideal" p="Encontre profissionais que tenham disponibilidade e que suas habilidades batam com suas necessidades" imagesrc={HomemLimpeza}></Banner>
+        <Banner title="Encontre o profissional ideal" p="Encontre profissionais que tenham disponibilidade e que suas habilidades batam com suas necessidades" imagesrc={mulherLimpando}></Banner>
         <form class="d-flex container p-4">
             <div className='d-flex justify-content-start'>
                 <button class=" btn-filtro px-4 mx-4 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Filtros</button>
