@@ -1,6 +1,7 @@
 import Titulo from "../titulo/Titulo";
 import './FiltroRápido.css'
 import { MdFilterList } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 
 
@@ -80,7 +81,7 @@ function filtroRápido() {
             </div>
             <div className="d-flex mt-4 justify-content-end">
                 <span id="outrosfiltros" className="link-secondary my-4 mx-2"><MdFilterList></MdFilterList> Outros filtros</span>
-                <button className="btn btn-primary my-4 mx-4">Buscar opções</button>
+                <button className="btn btn-primary my-4 mx-4"><Link className="p-branco" to="/procuradeprofissionais">Buscar opções</Link></button>
 
             </div>
         </div>

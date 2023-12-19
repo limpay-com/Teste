@@ -2,7 +2,6 @@ import './procuradeprofissionais.css'
 import Banner from '../banner/Banner'
 import { motion } from 'framer-motion'
 import CardPerfil from '../cardPerfil/CardPerfil'
-import HomemLimpeza from '../../assets/images/procuradeprofissionais/homem-segurando-produtos-de-limpeza.png'
 import React, { useState } from 'react';
 import mulherLimpando from '../../assets/images/inicio/mulher-limpando-a-tela.png'
 // import SearchBar from './barrapesquisa/SearchBar';
